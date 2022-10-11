@@ -49,7 +49,7 @@
     "body": ["const [ ${2} ] = ${1}"],
     "description": "const [ xx ] = xx"
   },
-  "cfu": {
+  "cfun": {
     "prefix": "cfu",
     "body": ["const ${1} = (${2}) => {$3}"],
     "description": "函数表达式"
@@ -163,7 +163,7 @@
   "formAsync": {
     "prefix": "formasync",
     "body": [
-      "<Form.Item label=\"${1:label}\" name=\"${1:name}\">",
+      "<Form.Item label=\"${1:label}\" name=\"${2:name}\">",
       "  <AsyncSelect",
       "    remote={{",
       "      gqlKey: '${3}',",
@@ -184,7 +184,7 @@
     "description": "单行表单"
   },
   "多行表单": {
-    "prefix": "formtextarea",
+    "prefix": "formtext",
     "body": [
       "<Form.Item label=\"${1:label}\" name='${2:name}'>",
       "  <Input.TextArea />",

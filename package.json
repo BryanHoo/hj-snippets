@@ -9,9 +9,9 @@
   "categories": [
     "Snippets"
   ],
-  "scripts": {
-    "package": "./node_modules/.bin/vsce package"
-  },
+  "repository": "https://github.com/BryanHoo/hj-snippets",
+  "author": "Bryan Hu <hushao599@gmail.com> (https://github.com/BryanHoo)",
+  "license": "MIT",
   "contributes": {
     "snippets": [
       {
@@ -31,7 +31,5 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  },
-  "devDependencies": {},
-  "dependencies": {}
+  }
 }
